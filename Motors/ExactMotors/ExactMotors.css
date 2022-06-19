@@ -1,0 +1,69 @@
+body{
+    background-image: url(../../Images/Asphalt.jpg  );
+    
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-color: rgba(158,160,160,255);
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+}
+#info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lobster';
+}
+#snimki{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    width: 42.09%;
+    height: 32em;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 3em;
+}
+#title{
+    margin-left: 1em;
+    font-family: 'Lobster';
+    font-size: 2em;
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+}
+#title:hover{
+    border-radius: 15px;
+    transition: 1s;
+    font-size: 2.2em;
+}
+
+p{
+    padding: 2em;
+    margin-top: 0.5em;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 2em;
+    background-color: rgba(255, 255, 255, 0.514);
+    width: 80.75%;
+}
+#paragraf{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    font-size: 2em;
+    background-color: rgba(255, 255, 255, 0.514);;
+    margin-bottom: 3em;
+    border-radius: 15px;
+    border: none;
+    padding: 0.25em;
+}
+button:hover{
+    background-color: rgba(160, 160, 160, 0.514);
+    transition: 0.5s;
+}
